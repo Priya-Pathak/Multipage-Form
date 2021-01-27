@@ -1,0 +1,128 @@
+*{
+    font-family: 'Open Sans',sans-serif;
+}
+
+body{
+    background: #fff;
+    font-size: 16px;
+    line-height: 1.7;
+    margin: 0px;
+    width: 100vw;
+    background-image: url(http://i.imgur.com/w16HASj.png);
+    height: 100vh;    
+}
+.container{
+    color: azure;
+    padding: 5vw;
+
+}
+
+.container h1{
+    color: azure;
+}
+.header{
+    text-align: center;
+}
+
+.header h1{
+    
+    color: azure;
+}
+
+form{
+    text-align: center;
+    padding-top: 2vh;
+}
+
+form input{
+    width: 15vw;
+    height: 5vh;
+    border-bottom: 2px solid azure;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: rgba(0,0,0,0);
+    text-align: center;
+    color: azure;
+    font-size: medium;
+}
+form input:focus{
+    outline: none !important;
+    box-shadow: none;
+
+}
+form input:active{
+    width: 15vw;
+    height: 5vh;
+    border-bottom: 2px solid azure;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: rgba(0,0,0,0);
+    text-align: center;
+    color: azure;
+    font-size: medium;
+}
+hr{
+    width: 50vw;
+}
+label{
+    color: azure;
+}
+form input[type="radio"]{
+    color: azure;
+    padding: 2px;
+}
+form input[type="submit"]{
+    margin: 5vh;
+    width: 25vw;
+    height: 5vh;
+    color: azure;
+    background-color: rgba(0,0,0,0);
+    border: 2px solid azure;
+    
+   
+}
+form input[type="submit"]:hover{
+    margin: 5vh;
+    width: 25vw;
+    height: 5vh;
+    color: #54646c;
+    background-color: azure;
+    border: 2px solid azure;
+}
+form select{
+    width: 15vw;
+    height: 5vh;
+    border-bottom: 2px solid azure;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: rgba(0,0,0,0);
+    text-align: center;
+    color: azure;
+    font-size: medium;
+    
+}
+form select options{
+    width: 15vw;
+    height: 5vh;
+}
+form textarea{
+    margin-bottom: 2vh;
+    padding-bottom: 0vh;
+}
+.footer{
+    width: match-parent;
+    background-color: #54646c;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+.footer h5{
+    color: white;
+}
